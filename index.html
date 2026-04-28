@@ -1,52 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Vendas de Carros</title>
-   <link rel="stylesheet" href="/style/header.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caterpillar - Equipamentos Pesados</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header class="cabe">
-      <figure class="logo">
-         <img src="/src/cat.png" alt="">
-      </figure>
-      <section class="menu">
-         <ul>
-            <li><a href="/index.html">home</a></li>
-            <li><a href="/catalogo.html">catalogo</a></li>
-            <li><button><a href="/cadastro.html">Cadastre-se</a></button></li>
-         </ul>
-      </section>
-   </header>
-
-   <main>
-      <section class="vitrine">
-         <h1 style="color: white; text-align: center; margin-bottom: 2rem;">LINHA DE PESADOS</h1>
-
-         <div class="carrossel-container">
-            <div class="card">
-               <img src="/src/cat1.jpg" alt="Cat 793" class="card-image">
-               <div class="card-body">
-                  <span class="tag">Elétrico</span>
-                  <h2 class="card-title">Cat 793</h2>
-                  <p class="card-price">R$ 15.000.000,00</p>
-                  <a href="especificacao.html?id=cat793" class="card-button">Detalhes</a>
-               </div>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">CATERPILLAR</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#catalogo">Catálogo</a></li>
+                    <li><a href="cadastro.html" class="btn-cadastro">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Bem-vindo à Caterpillar</h1>
+                <p>Os melhores equipamentos pesados para sua obra</p>
             </div>
-
-            <div class="card">
-               <img src="cat797.jpg" alt="Cat 797" class="card-image">
-               <div class="card-body">
-                  <span class="tag">Diesel</span>
-                  <h2 class="card-title">Cat 797F</h2>
-                  <p class="card-price">R$ 22.500.000,00</p>
-                  <a href="especificacao.html?id=cat797" class="card-button">Detalhes</a>
-               </div>
+        </section>
+        <section id="catalogo">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 2rem; font-size: 2rem;">Nosso Catálogo</h2>
+                
+                <div class="carrossel-container">
+                    <article class="card">
+                        <img src="imagens/car1.jpg" alt="Escavadeira CAT 320 - Equipamento amarelo para escavação" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Escavadeira</span>
+                            <h3 class="card-title">CAT 320</h3>
+                            <p class="card-price">R$ 450.000,00</p>
+                            <a href="especificacao.html?id=car1" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/car2.jpg" alt="Trator de Esteiras CAT D6 - Equipamento amarelo para terraplenagem" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Trator de Esteiras</span>
+                            <h3 class="card-title">CAT D6</h3>
+                            <p class="card-price">R$ 520.000,00</p>
+                            <a href="especificacao.html?id=car2" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/car3.jpg" alt="Carregadeira de Rodas CAT 950 - Equipamento amarelo para carregamento" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Carregadeira</span>
+                            <h3 class="card-title">CAT 950</h3>
+                            <p class="card-price">R$ 380.000,00</p>
+                            <a href="especificacao.html?id=car3" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/car4.jpg" alt="Motoniveladora CAT 140 - Equipamento amarelo para nivelação" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Motoniveladora</span>
+                            <h3 class="card-title">CAT 140</h3>
+                            <p class="card-price">R$ 320.000,00</p>
+                            <a href="especificacao.html?id=car4" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/car5.jpg" alt="Compactador CAT CS56 - Equipamento amarelo para compactação" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Compactador</span>
+                            <h3 class="card-title">CAT CS56</h3>
+                            <p class="card-price">R$ 280.000,00</p>
+                            <a href="especificacao.html?id=car5" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/car6.jpg" alt="Retroescavadeira CAT 416 - Equipamento amarelo para escavação" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Retroescavadeira</span>
+                            <h3 class="card-title">CAT 416</h3>
+                            <p class="card-price">R$ 220.000,00</p>
+                            <a href="especificacao.html?id=car6" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/car7.jpg" alt="Pá Carregadeira CAT 980 - Equipamento amarelo para carregamento" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Pá Carregadeira</span>
+                            <h3 class="card-title">CAT 980</h3>
+                            <p class="card-price">R$ 410.000,00</p>
+                            <a href="especificacao.html?id=car7" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="imagens/car8.jpg" alt="Escavadeira Hidráulica CAT 374 - Equipamento amarelo para escavação" class="card-image">
+                        <div class="card-body">
+                            <span class="tag">Escavadeira Hidráulica</span>
+                            <h3 class="card-title">CAT 374</h3>
+                            <p class="card-price">R$ 580.000,00</p>
+                            <a href="especificacao.html?id=car8" class="card-button">Detalhes</a>
+                        </div>
+                    </article>
+                </div>
             </div>
-
-         </div>
-      </section>
-   </main>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <section>
+                <h4>Caterpillar</h4>
+            <section>
+                <h4>Contato</h4>
+                <p>📞 Telefone: (11) 3000-0000</p>
+                <p>📧 E-mail: contato@caterpillar.com.br</p>
+            </section>
+            <section>
+                <p><a href="#fale-conosco">Fale Conosco</a></p>
+                <p><a href="#ajuda">Central de Ajuda</a></p>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>
